@@ -156,7 +156,7 @@ let tick_event = new Event()
 tick_event.unsubscribeOnTickEvent(); // unsubsribe when not necessary
 ```
 
-You can get history data using `Event`
+You can get history data using `Event`.
 example of retrieving EURUSD 1H history bars from MT5
 
 ```javascript
