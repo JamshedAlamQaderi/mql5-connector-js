@@ -1,0 +1,28 @@
+{
+  "name": "mql5-connector-js",
+  "version": "1.0.3",
+  "description": "This program is an interface between MT5 and Javascript",
+  "keywords": [
+    "mql5-connector",
+    "connector",
+    "mql5",
+    "js",
+    "trading",
+    "mt5"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "zeromq": "^5.1.0",
+    "@types/zeromq": "^4.6.2"
+  },
+  "devDependencies": {
+    "typescript": "^3.5.3",
+    "@types/node": "^12.7.1"
+  }
+}
